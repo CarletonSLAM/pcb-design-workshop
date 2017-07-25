@@ -153,7 +153,7 @@
 </layers>
 <schematic xreflabel="%F%N/%S.%C%R" xrefpart="/%S.%C%R">
 <libraries>
-<library name="SparkFun-Aesthetics">
+<library name="SparkFun-Aesthetics" urn="urn:adsk.eagle:library:507">
 <description>&lt;h3&gt;SparkFun Electronics' preferred foot prints&lt;/h3&gt;
 In this library you'll find non-functional items- supply symbols, logos, notations, frame blocks, etc.&lt;br&gt;&lt;br&gt;
 We've spent an enormous amount of time creating and checking these footprints and parts, but it is the end user's responsibility to ensure correctness and suitablity for a given componet or application. If you enjoy using this library, please buy one of our products at www.sparkfun.com.
@@ -208,7 +208,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </deviceset>
 </devicesets>
 </library>
-<library name="SparkFun-Resistors">
+<library name="SparkFun-Resistors" urn="urn:adsk.eagle:library:532">
 <description>&lt;h3&gt;SparkFun Electronics' preferred foot prints&lt;/h3&gt;
 In this library you'll find resistors, capacitors, inductors, test points, jumper pads, etc.&lt;br&gt;&lt;br&gt;
 We've spent an enormous amount of time creating and checking these footprints and parts, but it is the end user's responsibility to ensure correctness and suitablity for a given componet or application. If you enjoy using this library, please buy one of our products at www.sparkfun.com.
@@ -438,7 +438,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </deviceset>
 </devicesets>
 </library>
-<library name="SparkFun-Connectors">
+<library name="SparkFun-Connectors" urn="urn:adsk.eagle:library:513">
 <description>&lt;h3&gt;SparkFun Electronics' preferred foot prints&lt;/h3&gt;
 In this library you'll find connectors and sockets- basically anything that can be plugged into or onto.&lt;br&gt;&lt;br&gt;
 We've spent an enormous amount of time creating and checking these footprints and parts, but it is the end user's responsibility to ensure correctness and suitablity for a given componet or application. If you enjoy using this library, please buy one of our products at www.sparkfun.com.
@@ -1342,7 +1342,7 @@ This is the reduced ISP connector for AVR programming. Common on Arduino. This f
 </deviceset>
 </devicesets>
 </library>
-<library name="SparkFun-LED">
+<library name="SparkFun-LED" urn="urn:adsk.eagle:library:529">
 <description>&lt;h3&gt;SparkFun Electronics' preferred foot prints&lt;/h3&gt;
 In this library you'll find discrete LEDs for illumination or indication, but no displays.&lt;br&gt;&lt;br&gt;
 We've spent an enormous amount of time creating and checking these footprints and parts, but it is the end user's responsibility to ensure correctness and suitablity for a given componet or application. If you enjoy using this library, please buy one of our products at www.sparkfun.com.
@@ -2317,7 +2317,7 @@ Source: http://www.ftdichip.com/Documents/DataSheets/DS_FT232R_v104.pdf</descrip
 </deviceset>
 </devicesets>
 </library>
-<library name="SparkFun-Capacitors">
+<library name="SparkFun-Capacitors" urn="urn:adsk.eagle:library:510">
 <description>&lt;h3&gt;SparkFun Capacitors&lt;/h3&gt;
 This library contains capacitors. 
 &lt;br&gt;
@@ -2722,7 +2722,7 @@ http://www.kemet.com/Lists/ProductCatalog/Attachments/254/KEM_T2005_T491.pdf</de
 </deviceset>
 </devicesets>
 </library>
-<library name="SparkFun-Fuses">
+<library name="SparkFun-Fuses" urn="urn:adsk.eagle:library:517">
 <description>&lt;h3&gt;SparkFun Fuses&lt;/h3&gt;
 In this library you'll find fuses, or fuse like components such as PTCs. Reference designator F.
 &lt;br&gt;
@@ -2835,7 +2835,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </deviceset>
 </devicesets>
 </library>
-<library name="SparkFun-DiscreteSemi">
+<library name="SparkFun-DiscreteSemi" urn="urn:adsk.eagle:library:514">
 <description>&lt;h3&gt;SparkFun Discrete Semiconductors&lt;/h3&gt;
 This library contains diodes, optoisolators, TRIACs, MOSFETs, transistors, etc. 
 &lt;br&gt;
@@ -3025,7 +3025,7 @@ Diode with low voltage drop</description>
 </deviceset>
 </devicesets>
 </library>
-<library name="SparkFun-Clocks">
+<library name="SparkFun-Clocks" urn="urn:adsk.eagle:library:511">
 <description>&lt;h3&gt;SparkFun Clocks, Oscillators and Resonators&lt;/h3&gt;
 This library contains the real-time clocks, oscillators, resonators, and crystals we use. 
 &lt;br&gt;
@@ -3160,7 +3160,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </deviceset>
 </devicesets>
 </library>
-<library name="SparkFun-PowerSymbols">
+<library name="SparkFun-PowerSymbols" urn="urn:adsk.eagle:library:530">
 <description>&lt;h3&gt;SparkFun Power Symbols&lt;/h3&gt;
 This library contains power, ground, and voltage-supply symbols.
 &lt;br&gt;
@@ -3242,7 +3242,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </deviceset>
 </devicesets>
 </library>
-<library name="SparkFun-IC-Microcontroller">
+<library name="SparkFun-IC-Microcontroller" urn="urn:adsk.eagle:library:525">
 <description>&lt;h3&gt;SparkFun Microcontrollers&lt;/h3&gt;
 This library contains microcontrollers.
 &lt;br&gt;
@@ -3601,49 +3601,49 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </class>
 </classes>
 <parts>
-<part name="ICSP" library="SparkFun-Connectors" deviceset="AVR_SPI_PRG_6" device="NS"/>
+<part name="ICSP" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="AVR_SPI_PRG_6" device="NS"/>
 <part name="JP4" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X8" device=""/>
 <part name="JP5" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X8" device=""/>
 <part name="JP6" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X8" device=""/>
-<part name="FRAME1" library="SparkFun-Aesthetics" deviceset="FRAME-A4L" device=""/>
-<part name="D1" library="SparkFun-LED" deviceset="LED-BLUE" device="0603" value="BLUE"/>
+<part name="FRAME1" library="SparkFun-Aesthetics" library_urn="urn:adsk.eagle:library:507" deviceset="FRAME-A4L" device=""/>
+<part name="D1" library="SparkFun-LED" library_urn="urn:adsk.eagle:library:529" deviceset="LED-BLUE" device="0603" value="BLUE"/>
 <part name="IC1" library="ftdichip" library_urn="urn:adsk.eagle:library:231" deviceset="FT232R" device="L"/>
-<part name="J1" library="SparkFun-Connectors" deviceset="USB_MICRO-B" device="_FEMALE-SMT"/>
-<part name="F1" library="SparkFun-Fuses" deviceset="PPTC" device="_HALF-AMP" value="6V/0.5A"/>
-<part name="D3" library="SparkFun-DiscreteSemi" deviceset="DIODE-SCHOTTKY" device="-SS14" value="2A/100V/850mV"/>
-<part name="C11" library="SparkFun-Capacitors" deviceset="10UF-POLAR" device="-0603-6.3V-20%(TANT)" value="4.7uF"/>
-<part name="Y3" library="SparkFun-Clocks" deviceset="CRYSTAL-16MHZ" device="PTH-HC49US" value="16MHz"/>
-<part name="SUPPLY1" library="SparkFun-PowerSymbols" deviceset="V_USB" device=""/>
-<part name="SUPPLY2" library="SparkFun-PowerSymbols" deviceset="V_USB" device=""/>
-<part name="SUPPLY4" library="SparkFun-PowerSymbols" deviceset="5V" device=""/>
-<part name="SUPPLY6" library="SparkFun-PowerSymbols" deviceset="5V" device=""/>
-<part name="SUPPLY8" library="SparkFun-PowerSymbols" deviceset="5V" device=""/>
-<part name="SUPPLY10" library="SparkFun-PowerSymbols" deviceset="5V" device=""/>
-<part name="GND9" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
-<part name="GND1" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
-<part name="GND8" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
-<part name="GND6" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
-<part name="GND7" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
-<part name="GND3" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
-<part name="GND4" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
-<part name="GND5" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
-<part name="GND10" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
-<part name="R7" library="SparkFun-Resistors" deviceset="RESISTOR" device="0805" value="1k"/>
-<part name="R2" library="SparkFun-Resistors" deviceset="RESISTOR" device="0805" value="1k"/>
-<part name="R3" library="SparkFun-Resistors" deviceset="RESISTOR" device="0805" value="1k"/>
-<part name="R4" library="SparkFun-Resistors" deviceset="RESISTOR" device="0805" value="1k"/>
-<part name="R5" library="SparkFun-Resistors" deviceset="RESISTOR" device="0805" value="1k"/>
-<part name="R8" library="SparkFun-Resistors" deviceset="RESISTOR" device="0805" value="1k"/>
-<part name="U1" library="SparkFun-IC-Microcontroller" deviceset="ATMEGA328P_TQFP" device="" value="ATMEGA328P_TQFP"/>
-<part name="C4" library="SparkFun-Capacitors" deviceset="22PF" device="-0603-50V-5%" value="22pF"/>
-<part name="C5" library="SparkFun-Capacitors" deviceset="22PF" device="-0603-50V-5%" value="22pF"/>
+<part name="J1" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="USB_MICRO-B" device="_FEMALE-SMT"/>
+<part name="F1" library="SparkFun-Fuses" library_urn="urn:adsk.eagle:library:517" deviceset="PPTC" device="_HALF-AMP" value="6V/0.5A"/>
+<part name="D3" library="SparkFun-DiscreteSemi" library_urn="urn:adsk.eagle:library:514" deviceset="DIODE-SCHOTTKY" device="-SS14" value="2A/100V/850mV"/>
+<part name="C11" library="SparkFun-Capacitors" library_urn="urn:adsk.eagle:library:510" deviceset="10UF-POLAR" device="-0603-6.3V-20%(TANT)" value="4.7uF"/>
+<part name="Y3" library="SparkFun-Clocks" library_urn="urn:adsk.eagle:library:511" deviceset="CRYSTAL-16MHZ" device="PTH-HC49US" value="16MHz"/>
+<part name="SUPPLY1" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="V_USB" device=""/>
+<part name="SUPPLY2" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="V_USB" device=""/>
+<part name="SUPPLY4" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="5V" device=""/>
+<part name="SUPPLY6" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="5V" device=""/>
+<part name="SUPPLY8" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="5V" device=""/>
+<part name="SUPPLY10" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="5V" device=""/>
+<part name="GND9" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="GND" device=""/>
+<part name="GND1" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="GND" device=""/>
+<part name="GND8" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="GND" device=""/>
+<part name="GND6" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="GND" device=""/>
+<part name="GND7" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="GND" device=""/>
+<part name="GND3" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="GND" device=""/>
+<part name="GND4" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="GND" device=""/>
+<part name="GND5" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="GND" device=""/>
+<part name="GND10" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="GND" device=""/>
+<part name="R7" library="SparkFun-Resistors" library_urn="urn:adsk.eagle:library:532" deviceset="RESISTOR" device="0805" value="1k"/>
+<part name="R2" library="SparkFun-Resistors" library_urn="urn:adsk.eagle:library:532" deviceset="RESISTOR" device="0805" value="1k"/>
+<part name="R3" library="SparkFun-Resistors" library_urn="urn:adsk.eagle:library:532" deviceset="RESISTOR" device="0805" value="1k"/>
+<part name="R4" library="SparkFun-Resistors" library_urn="urn:adsk.eagle:library:532" deviceset="RESISTOR" device="0805" value="1k"/>
+<part name="R5" library="SparkFun-Resistors" library_urn="urn:adsk.eagle:library:532" deviceset="RESISTOR" device="0805" value="1k"/>
+<part name="R8" library="SparkFun-Resistors" library_urn="urn:adsk.eagle:library:532" deviceset="RESISTOR" device="0805" value="1k"/>
+<part name="U1" library="SparkFun-IC-Microcontroller" library_urn="urn:adsk.eagle:library:525" deviceset="ATMEGA328P_TQFP" device="" value="ATMEGA328P_TQFP"/>
+<part name="C4" library="SparkFun-Capacitors" library_urn="urn:adsk.eagle:library:510" deviceset="22PF" device="-0603-50V-5%" value="22pF"/>
+<part name="C5" library="SparkFun-Capacitors" library_urn="urn:adsk.eagle:library:510" deviceset="22PF" device="-0603-50V-5%" value="22pF"/>
 <part name="S1" library="switch-omron" library_urn="urn:adsk.eagle:library:377" deviceset="10-XX" device=""/>
-<part name="C2" library="SparkFun-Capacitors" deviceset="0.1UF" device="-0603-25V-5%" value="0.1uF"/>
-<part name="C6" library="SparkFun-Capacitors" deviceset="0.1UF" device="-0603-25V-5%" value="0.1uF"/>
-<part name="C7" library="SparkFun-Capacitors" deviceset="0.1UF" device="-0603-25V-5%" value="0.1uF"/>
-<part name="D7" library="SparkFun-LED" deviceset="LED-GREEN" device="0603" value="GREEN"/>
-<part name="D4" library="SparkFun-LED" deviceset="LED-RED" device="0603" value="RED"/>
-<part name="SUPPLY3" library="SparkFun-PowerSymbols" deviceset="5V" device=""/>
+<part name="C2" library="SparkFun-Capacitors" library_urn="urn:adsk.eagle:library:510" deviceset="0.1UF" device="-0603-25V-5%" value="0.1uF"/>
+<part name="C6" library="SparkFun-Capacitors" library_urn="urn:adsk.eagle:library:510" deviceset="0.1UF" device="-0603-25V-5%" value="0.1uF"/>
+<part name="C7" library="SparkFun-Capacitors" library_urn="urn:adsk.eagle:library:510" deviceset="0.1UF" device="-0603-25V-5%" value="0.1uF"/>
+<part name="D7" library="SparkFun-LED" library_urn="urn:adsk.eagle:library:529" deviceset="LED-GREEN" device="0603" value="GREEN"/>
+<part name="SUPPLY3" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="5V" device=""/>
+<part name="D2" library="SparkFun-LED" library_urn="urn:adsk.eagle:library:529" deviceset="LED-RED" device="0603" value="RED"/>
 </parts>
 <sheets>
 <sheet>
@@ -3686,7 +3686,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <instance part="JP5" gate="A" x="198.12" y="81.28"/>
 <instance part="JP6" gate="A" x="218.44" y="81.28"/>
 <instance part="FRAME1" gate="G$1" x="-43.18" y="-20.32"/>
-<instance part="D1" gate="G$1" x="30.48" y="86.36"/>
+<instance part="D1" gate="G$1" x="7.62" y="73.66"/>
 <instance part="IC1" gate="1" x="-5.08" y="20.32"/>
 <instance part="J1" gate="G$1" x="63.5" y="27.94"/>
 <instance part="F1" gate="G$1" x="48.26" y="43.18" rot="R270"/>
@@ -3709,8 +3709,8 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <instance part="GND5" gate="1" x="-35.56" y="12.7"/>
 <instance part="GND10" gate="1" x="-35.56" y="63.5"/>
 <instance part="R7" gate="G$1" x="-35.56" y="86.36" rot="R90"/>
-<instance part="R2" gate="G$1" x="-5.08" y="73.66" rot="R90"/>
-<instance part="R3" gate="G$1" x="7.62" y="73.66" rot="R90"/>
+<instance part="R2" gate="G$1" x="-5.08" y="83.82" rot="R90"/>
+<instance part="R3" gate="G$1" x="7.62" y="83.82" rot="R90"/>
 <instance part="R4" gate="G$1" x="17.78" y="48.26" rot="R180"/>
 <instance part="R5" gate="G$1" x="17.78" y="38.1" rot="R180"/>
 <instance part="R8" gate="G$1" x="68.58" y="137.16" rot="R90"/>
@@ -3722,8 +3722,8 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <instance part="C6" gate="G$1" x="-30.48" y="17.78" rot="R90"/>
 <instance part="C7" gate="G$1" x="68.58" y="-2.54" rot="R180"/>
 <instance part="D7" gate="G$1" x="-35.56" y="76.2"/>
-<instance part="D4" gate="G$1" x="20.32" y="86.36"/>
 <instance part="SUPPLY3" gate="G$1" x="63.5" y="121.92"/>
+<instance part="D2" gate="G$1" x="-5.08" y="73.66"/>
 </instances>
 <busses>
 </busses>
@@ -4142,9 +4142,9 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <label x="15.24" y="17.78" size="1.778" layer="95"/>
 </segment>
 <segment>
-<wire x1="7.62" y1="68.58" x2="7.62" y2="66.04" width="0.1524" layer="91"/>
-<label x="5.08" y="63.5" size="1.778" layer="95"/>
-<pinref part="R3" gate="G$1" pin="1"/>
+<pinref part="D1" gate="G$1" pin="C"/>
+<wire x1="7.62" y1="68.58" x2="7.62" y2="63.5" width="0.1524" layer="91"/>
+<label x="7.62" y="63.5" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="VBUS" class="0">
@@ -4163,9 +4163,9 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <label x="15.24" y="20.32" size="1.778" layer="95"/>
 </segment>
 <segment>
-<wire x1="-5.08" y1="68.58" x2="-5.08" y2="66.04" width="0.1524" layer="91"/>
-<label x="-7.62" y="63.5" size="1.778" layer="95"/>
-<pinref part="R2" gate="G$1" pin="1"/>
+<pinref part="D2" gate="G$1" pin="C"/>
+<wire x1="-5.08" y1="68.58" x2="-5.08" y2="63.5" width="0.1524" layer="91"/>
+<label x="-5.08" y="63.5" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="V_USB" class="3">
@@ -4206,18 +4206,10 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="-35.56" y1="91.44" x2="-5.08" y2="91.44" width="0.1524" layer="91"/>
 <junction x="-5.08" y="91.44"/>
 <wire x1="-5.08" y1="91.44" x2="7.62" y2="91.44" width="0.1524" layer="91"/>
-<junction x="7.62" y="91.44"/>
-<wire x1="7.62" y1="91.44" x2="20.32" y2="91.44" width="0.1524" layer="91"/>
-<wire x1="20.32" y1="91.44" x2="20.32" y2="88.9" width="0.1524" layer="91"/>
-<pinref part="D1" gate="G$1" pin="A"/>
-<wire x1="20.32" y1="91.44" x2="30.48" y2="91.44" width="0.1524" layer="91"/>
-<wire x1="30.48" y1="91.44" x2="30.48" y2="88.9" width="0.1524" layer="91"/>
-<junction x="20.32" y="91.44"/>
-<pinref part="D4" gate="G$1" pin="A"/>
 <pinref part="R2" gate="G$1" pin="2"/>
-<wire x1="-5.08" y1="91.44" x2="-5.08" y2="78.74" width="0.1524" layer="91"/>
+<wire x1="-5.08" y1="91.44" x2="-5.08" y2="88.9" width="0.1524" layer="91"/>
 <pinref part="R3" gate="G$1" pin="2"/>
-<wire x1="7.62" y1="91.44" x2="7.62" y2="78.74" width="0.1524" layer="91"/>
+<wire x1="7.62" y1="91.44" x2="7.62" y2="88.9" width="0.1524" layer="91"/>
 <pinref part="SUPPLY6" gate="G$1" pin="5V"/>
 </segment>
 <segment>
@@ -4308,16 +4300,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <label x="132.08" y="106.68" size="1.778" layer="95"/>
 <pinref part="U1" gate="U$1" pin="PD0(RXD)"/>
 </segment>
-<segment>
-<label x="30.48" y="63.5" size="1.778" layer="95"/>
-<pinref part="D1" gate="G$1" pin="C"/>
-<wire x1="30.48" y1="66.04" x2="30.48" y2="81.28" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="JP5" gate="A" pin="5"/>
-<wire x1="195.58" y1="81.28" x2="180.34" y2="81.28" width="0.1524" layer="91"/>
-<label x="180.34" y="81.28" size="1.778" layer="95"/>
-</segment>
 </net>
 <net name="RX_N" class="0">
 <segment>
@@ -4331,16 +4313,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <label x="132.08" y="104.14" size="1.778" layer="95"/>
 <pinref part="U1" gate="U$1" pin="PD1(TXD)"/>
 </segment>
-<segment>
-<label x="20.32" y="63.5" size="1.778" layer="95"/>
-<pinref part="D4" gate="G$1" pin="C"/>
-<wire x1="20.32" y1="66.04" x2="20.32" y2="81.28" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="JP5" gate="A" pin="6"/>
-<wire x1="195.58" y1="78.74" x2="180.34" y2="78.74" width="0.1524" layer="91"/>
-<label x="180.34" y="78.74" size="1.778" layer="95"/>
-</segment>
 </net>
 <net name="RX_1_P" class="0">
 <segment>
@@ -4349,6 +4321,11 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="12.7" y1="43.18" x2="12.7" y2="48.26" width="0.1524" layer="91"/>
 <pinref part="R4" gate="G$1" pin="2"/>
 </segment>
+<segment>
+<pinref part="JP5" gate="A" pin="5"/>
+<wire x1="195.58" y1="81.28" x2="180.34" y2="81.28" width="0.1524" layer="91"/>
+<label x="180.34" y="81.28" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="RX_1_N" class="0">
 <segment>
@@ -4356,6 +4333,27 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <pinref part="R5" gate="G$1" pin="2"/>
 <wire x1="10.16" y1="40.64" x2="12.7" y2="40.64" width="0.1524" layer="91"/>
 <wire x1="12.7" y1="40.64" x2="12.7" y2="38.1" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="JP5" gate="A" pin="6"/>
+<wire x1="195.58" y1="78.74" x2="180.34" y2="78.74" width="0.1524" layer="91"/>
+<label x="180.34" y="78.74" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="CBUS2" class="0">
+</net>
+<net name="N$1" class="0">
+<segment>
+<pinref part="R3" gate="G$1" pin="1"/>
+<pinref part="D1" gate="G$1" pin="A"/>
+<wire x1="7.62" y1="78.74" x2="7.62" y2="76.2" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$2" class="0">
+<segment>
+<pinref part="R2" gate="G$1" pin="1"/>
+<pinref part="D2" gate="G$1" pin="A"/>
+<wire x1="-5.08" y1="78.74" x2="-5.08" y2="76.2" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
